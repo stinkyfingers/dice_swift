@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1ED04DA6200089D0005B140F /* Air Horn-SoundBible.com-964603082 (1).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1ED04DA5200089D0005B140F /* Air Horn-SoundBible.com-964603082 (1).mp3 */; };
+		1ED04DA920008A38005B140F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED04DA820008A38005B140F /* AVFoundation.framework */; };
 		1EDF73001FDF9C4700D50ECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDF72FF1FDF9C4700D50ECA /* AppDelegate.swift */; };
 		1EDF73021FDF9C4700D50ECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDF73011FDF9C4700D50ECA /* ViewController.swift */; };
 		1EDF73051FDF9C4700D50ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDF73031FDF9C4700D50ECA /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1ED04DA5200089D0005B140F /* Air Horn-SoundBible.com-964603082 (1).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Air Horn-SoundBible.com-964603082 (1).mp3"; sourceTree = "<group>"; };
+		1ED04DA820008A38005B140F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1EDF72FC1FDF9C4700D50ECA /* DirtyDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DirtyDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EDF72FF1FDF9C4700D50ECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EDF73011FDF9C4700D50ECA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ED04DA920008A38005B140F /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1ED04DA720008A37005B140F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1ED04DA820008A38005B140F /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1EDF72F31FDF9C4700D50ECA = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +94,7 @@
 				1EDF73131FDF9C4700D50ECA /* DirtyDiceTests */,
 				1EDF731E1FDF9C4700D50ECA /* DirtyDiceUITests */,
 				1EDF72FD1FDF9C4700D50ECA /* Products */,
+				1ED04DA720008A37005B140F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +113,7 @@
 			children = (
 				1EDF72FF1FDF9C4700D50ECA /* AppDelegate.swift */,
 				1EDF73011FDF9C4700D50ECA /* ViewController.swift */,
+				1ED04DA5200089D0005B140F /* Air Horn-SoundBible.com-964603082 (1).mp3 */,
 				1EDF73031FDF9C4700D50ECA /* Main.storyboard */,
 				1EDF73061FDF9C4700D50ECA /* Assets.xcassets */,
 				1EDF73081FDF9C4700D50ECA /* LaunchScreen.storyboard */,
@@ -188,20 +203,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "John Shenk";
 				TargetAttributes = {
 					1EDF72FB1FDF9C4700D50ECA = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 					1EDF730F1FDF9C4700D50ECA = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1EDF72FB1FDF9C4700D50ECA;
 					};
 					1EDF731A1FDF9C4700D50ECA = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1EDF72FB1FDF9C4700D50ECA;
 					};
@@ -232,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ED04DA6200089D0005B140F /* Air Horn-SoundBible.com-964603082 (1).mp3 in Resources */,
 				1EDF730A1FDF9C4700D50ECA /* LaunchScreen.storyboard in Resources */,
 				1EDF73071FDF9C4700D50ECA /* Assets.xcassets in Resources */,
 				1EDF73051FDF9C4700D50ECA /* Main.storyboard in Resources */,
@@ -329,6 +348,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -336,6 +356,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -386,6 +407,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -393,6 +415,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -432,7 +455,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shenk.DirtyDice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -447,7 +470,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shenk.DirtyDice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -463,7 +486,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shenk.DirtyDiceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DirtyDice.app/DirtyDice";
 			};
@@ -480,7 +503,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shenk.DirtyDiceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DirtyDice.app/DirtyDice";
 			};
@@ -496,7 +519,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shenk.DirtyDiceUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = DirtyDice;
 			};
@@ -512,7 +535,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shenk.DirtyDiceUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = DirtyDice;
 			};
